@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+Canvas {
+    border: 4px solid black;
+    cursor: crosshair;
+}
+
+Button , #resetButton {
+    margin-top: 20px;
+    margin-left: 800px;
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(84, 84, 84) 3px 3px 0px 0px;
+    border-radius: 8px;
+}
+
+Button , #resetButton:active{
+    box-shadow: rgb(106, 106, 106) 1.5px 1.5px 0px 0px;
+}
+
+#statusMessage {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: larger;
+    font-family: cursive; 
+}
+
+h1{
+    font-size: xx-large;
+    font-family: cursive;   
+}
+
